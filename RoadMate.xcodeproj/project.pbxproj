@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048A8D2F338F371727569250 /* Pods_RoadMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB00E30B7FC7CFAAB0405B3A /* Pods_RoadMate.framework */; };
+		24839CA49B285226AB9AFCB4 /* Pods_RoadMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD204BD5835A4324B84DC5B /* Pods_RoadMateTests.framework */; };
+		4AA8AE5E29E792F3009B96AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE5D29E792F3009B96AF /* AppDelegate.swift */; };
+		4AA8AE6029E792F3009B96AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE5F29E792F3009B96AF /* SceneDelegate.swift */; };
+		4AA8AE6229E792F3009B96AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE6129E792F3009B96AF /* LoginViewController.swift */; };
+		4AA8AE6529E792F3009B96AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA8AE6329E792F3009B96AF /* Main.storyboard */; };
+		4AA8AE6729E792F3009B96AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA8AE6629E792F3009B96AF /* Assets.xcassets */; };
+		4AA8AE6A29E792F3009B96AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA8AE6829E792F3009B96AF /* LaunchScreen.storyboard */; };
+		4AA8AE7529E792F3009B96AF /* RoadMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE7429E792F3009B96AF /* RoadMateTests.swift */; };
+		4AA8AE7F29E792F3009B96AF /* RoadMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE7E29E792F3009B96AF /* RoadMateUITests.swift */; };
+		4AA8AE8129E792F3009B96AF /* RoadMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE8029E792F3009B96AF /* RoadMateUITestsLaunchTests.swift */; };
+		4AC5DBE429E7A1D3002A0A4F /* roadMateVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5DBE329E7A1D3002A0A4F /* roadMateVideo.mp4 */; };
+		B205F4CA3A4C28A2A2EAEF02 /* Pods_RoadMate_RoadMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807A5501763750BCD5A9B5B2 /* Pods_RoadMate_RoadMateUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AA8AE7129E792F3009B96AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AA8AE5229E792F3009B96AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA8AE5929E792F3009B96AF;
+			remoteInfo = RoadMate;
+		};
+		4AA8AE7B29E792F3009B96AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AA8AE5229E792F3009B96AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA8AE5929E792F3009B96AF;
+			remoteInfo = RoadMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11DA87D401961A71F438F12E /* Pods-RoadMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMate.debug.xcconfig"; path = "Target Support Files/Pods-RoadMate/Pods-RoadMate.debug.xcconfig"; sourceTree = "<group>"; };
+		2DD204BD5835A4324B84DC5B /* Pods_RoadMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA8AE5A29E792F3009B96AF /* RoadMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA8AE5D29E792F3009B96AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AA8AE5F29E792F3009B96AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AA8AE6129E792F3009B96AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4AA8AE6429E792F3009B96AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AA8AE6629E792F3009B96AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AA8AE6929E792F3009B96AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AA8AE6B29E792F3009B96AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA8AE7029E792F3009B96AF /* RoadMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA8AE7429E792F3009B96AF /* RoadMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadMateTests.swift; sourceTree = "<group>"; };
+		4AA8AE7A29E792F3009B96AF /* RoadMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA8AE7E29E792F3009B96AF /* RoadMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadMateUITests.swift; sourceTree = "<group>"; };
+		4AA8AE8029E792F3009B96AF /* RoadMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AC5DBE329E7A1D3002A0A4F /* roadMateVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = roadMateVideo.mp4; sourceTree = "<group>"; };
+		679359664C5930F6C8FC7275 /* Pods-RoadMate-RoadMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMate-RoadMateUITests.release.xcconfig"; path = "Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		807A5501763750BCD5A9B5B2 /* Pods_RoadMate_RoadMateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadMate_RoadMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A653C55D54AA1154E10CAAB2 /* Pods-RoadMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMateTests.debug.xcconfig"; path = "Target Support Files/Pods-RoadMateTests/Pods-RoadMateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A875BEE8819016F4D03320A9 /* Pods-RoadMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMate.release.xcconfig"; path = "Target Support Files/Pods-RoadMate/Pods-RoadMate.release.xcconfig"; sourceTree = "<group>"; };
+		CB00E30B7FC7CFAAB0405B3A /* Pods_RoadMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A4541995FEDCE86462172E /* Pods-RoadMate-RoadMateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMate-RoadMateUITests.debug.xcconfig"; path = "Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7588D89A60DA4DBB89EB3F8 /* Pods-RoadMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMateTests.release.xcconfig"; path = "Target Support Files/Pods-RoadMateTests/Pods-RoadMateTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA8AE5729E792F3009B96AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048A8D2F338F371727569250 /* Pods_RoadMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8AE6D29E792F3009B96AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24839CA49B285226AB9AFCB4 /* Pods_RoadMateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8AE7729E792F3009B96AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B205F4CA3A4C28A2A2EAEF02 /* Pods_RoadMate_RoadMateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA8AE5129E792F3009B96AF = {
+			isa = PBXGroup;
+			children = (
+				4AA8AE5C29E792F3009B96AF /* RoadMate */,
+				4AA8AE7329E792F3009B96AF /* RoadMateTests */,
+				4AA8AE7D29E792F3009B96AF /* RoadMateUITests */,
+				4AA8AE5B29E792F3009B96AF /* Products */,
+				5A7D9127FAE6D14E18B8432B /* Pods */,
+				F4AF50572BA90B210FDFA358 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA8AE5B29E792F3009B96AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA8AE5A29E792F3009B96AF /* RoadMate.app */,
+				4AA8AE7029E792F3009B96AF /* RoadMateTests.xctest */,
+				4AA8AE7A29E792F3009B96AF /* RoadMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA8AE5C29E792F3009B96AF /* RoadMate */ = {
+			isa = PBXGroup;
+			children = (
+				4AA8AE5D29E792F3009B96AF /* AppDelegate.swift */,
+				4AA8AE5F29E792F3009B96AF /* SceneDelegate.swift */,
+				4AA8AE6129E792F3009B96AF /* LoginViewController.swift */,
+				4AA8AE6329E792F3009B96AF /* Main.storyboard */,
+				4AA8AE6629E792F3009B96AF /* Assets.xcassets */,
+				4AC5DBE329E7A1D3002A0A4F /* roadMateVideo.mp4 */,
+				4AA8AE6829E792F3009B96AF /* LaunchScreen.storyboard */,
+				4AA8AE6B29E792F3009B96AF /* Info.plist */,
+			);
+			path = RoadMate;
+			sourceTree = "<group>";
+		};
+		4AA8AE7329E792F3009B96AF /* RoadMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AA8AE7429E792F3009B96AF /* RoadMateTests.swift */,
+			);
+			path = RoadMateTests;
+			sourceTree = "<group>";
+		};
+		4AA8AE7D29E792F3009B96AF /* RoadMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AA8AE7E29E792F3009B96AF /* RoadMateUITests.swift */,
+				4AA8AE8029E792F3009B96AF /* RoadMateUITestsLaunchTests.swift */,
+			);
+			path = RoadMateUITests;
+			sourceTree = "<group>";
+		};
+		5A7D9127FAE6D14E18B8432B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11DA87D401961A71F438F12E /* Pods-RoadMate.debug.xcconfig */,
+				A875BEE8819016F4D03320A9 /* Pods-RoadMate.release.xcconfig */,
+				D4A4541995FEDCE86462172E /* Pods-RoadMate-RoadMateUITests.debug.xcconfig */,
+				679359664C5930F6C8FC7275 /* Pods-RoadMate-RoadMateUITests.release.xcconfig */,
+				A653C55D54AA1154E10CAAB2 /* Pods-RoadMateTests.debug.xcconfig */,
+				D7588D89A60DA4DBB89EB3F8 /* Pods-RoadMateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4AF50572BA90B210FDFA358 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB00E30B7FC7CFAAB0405B3A /* Pods_RoadMate.framework */,
+				807A5501763750BCD5A9B5B2 /* Pods_RoadMate_RoadMateUITests.framework */,
+				2DD204BD5835A4324B84DC5B /* Pods_RoadMateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA8AE5929E792F3009B96AF /* RoadMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA8AE8429E792F3009B96AF /* Build configuration list for PBXNativeTarget "RoadMate" */;
+			buildPhases = (
+				BB5FEB9600E916B9E081FCEC /* [CP] Check Pods Manifest.lock */,
+				4AA8AE5629E792F3009B96AF /* Sources */,
+				4AA8AE5729E792F3009B96AF /* Frameworks */,
+				4AA8AE5829E792F3009B96AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadMate;
+			productName = RoadMate;
+			productReference = 4AA8AE5A29E792F3009B96AF /* RoadMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AA8AE6F29E792F3009B96AF /* RoadMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA8AE8729E792F3009B96AF /* Build configuration list for PBXNativeTarget "RoadMateTests" */;
+			buildPhases = (
+				3B7EB81404D729D8FFC02E5F /* [CP] Check Pods Manifest.lock */,
+				4AA8AE6C29E792F3009B96AF /* Sources */,
+				4AA8AE6D29E792F3009B96AF /* Frameworks */,
+				4AA8AE6E29E792F3009B96AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AA8AE7229E792F3009B96AF /* PBXTargetDependency */,
+			);
+			name = RoadMateTests;
+			productName = RoadMateTests;
+			productReference = 4AA8AE7029E792F3009B96AF /* RoadMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AA8AE7929E792F3009B96AF /* RoadMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA8AE8A29E792F3009B96AF /* Build configuration list for PBXNativeTarget "RoadMateUITests" */;
+			buildPhases = (
+				4F25870590A5D2A7B2988156 /* [CP] Check Pods Manifest.lock */,
+				4AA8AE7629E792F3009B96AF /* Sources */,
+				4AA8AE7729E792F3009B96AF /* Frameworks */,
+				4AA8AE7829E792F3009B96AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AA8AE7C29E792F3009B96AF /* PBXTargetDependency */,
+			);
+			name = RoadMateUITests;
+			productName = RoadMateUITests;
+			productReference = 4AA8AE7A29E792F3009B96AF /* RoadMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA8AE5229E792F3009B96AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4AA8AE5929E792F3009B96AF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4AA8AE6F29E792F3009B96AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4AA8AE5929E792F3009B96AF;
+					};
+					4AA8AE7929E792F3009B96AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4AA8AE5929E792F3009B96AF;
+					};
+				};
+			};
+			buildConfigurationList = 4AA8AE5529E792F3009B96AF /* Build configuration list for PBXProject "RoadMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA8AE5129E792F3009B96AF;
+			productRefGroup = 4AA8AE5B29E792F3009B96AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA8AE5929E792F3009B96AF /* RoadMate */,
+				4AA8AE6F29E792F3009B96AF /* RoadMateTests */,
+				4AA8AE7929E792F3009B96AF /* RoadMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA8AE5829E792F3009B96AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC5DBE429E7A1D3002A0A4F /* roadMateVideo.mp4 in Resources */,
+				4AA8AE6A29E792F3009B96AF /* LaunchScreen.storyboard in Resources */,
+				4AA8AE6729E792F3009B96AF /* Assets.xcassets in Resources */,
+				4AA8AE6529E792F3009B96AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8AE6E29E792F3009B96AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8AE7829E792F3009B96AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B7EB81404D729D8FFC02E5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoadMateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F25870590A5D2A7B2988156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoadMate-RoadMateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5FEB9600E916B9E081FCEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoadMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA8AE5629E792F3009B96AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA8AE6229E792F3009B96AF /* LoginViewController.swift in Sources */,
+				4AA8AE5E29E792F3009B96AF /* AppDelegate.swift in Sources */,
+				4AA8AE6029E792F3009B96AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8AE6C29E792F3009B96AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA8AE7529E792F3009B96AF /* RoadMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8AE7629E792F3009B96AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA8AE8129E792F3009B96AF /* RoadMateUITestsLaunchTests.swift in Sources */,
+				4AA8AE7F29E792F3009B96AF /* RoadMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AA8AE7229E792F3009B96AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA8AE5929E792F3009B96AF /* RoadMate */;
+			targetProxy = 4AA8AE7129E792F3009B96AF /* PBXContainerItemProxy */;
+		};
+		4AA8AE7C29E792F3009B96AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA8AE5929E792F3009B96AF /* RoadMate */;
+			targetProxy = 4AA8AE7B29E792F3009B96AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AA8AE6329E792F3009B96AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA8AE6429E792F3009B96AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AA8AE6829E792F3009B96AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA8AE6929E792F3009B96AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA8AE8229E792F3009B96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AA8AE8329E792F3009B96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA8AE8529E792F3009B96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DA87D401961A71F438F12E /* Pods-RoadMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F7BF8JXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoadMate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.RoadMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA8AE8629E792F3009B96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A875BEE8819016F4D03320A9 /* Pods-RoadMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F7BF8JXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoadMate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.RoadMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AA8AE8829E792F3009B96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A653C55D54AA1154E10CAAB2 /* Pods-RoadMateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F7BF8JXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.RoadMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoadMate";
+			};
+			name = Debug;
+		};
+		4AA8AE8929E792F3009B96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7588D89A60DA4DBB89EB3F8 /* Pods-RoadMateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F7BF8JXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.RoadMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoadMate";
+			};
+			name = Release;
+		};
+		4AA8AE8B29E792F3009B96AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A4541995FEDCE86462172E /* Pods-RoadMate-RoadMateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F7BF8JXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.RoadMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoadMate;
+			};
+			name = Debug;
+		};
+		4AA8AE8C29E792F3009B96AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679359664C5930F6C8FC7275 /* Pods-RoadMate-RoadMateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F7BF8JXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.RoadMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoadMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA8AE5529E792F3009B96AF /* Build configuration list for PBXProject "RoadMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA8AE8229E792F3009B96AF /* Debug */,
+				4AA8AE8329E792F3009B96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA8AE8429E792F3009B96AF /* Build configuration list for PBXNativeTarget "RoadMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA8AE8529E792F3009B96AF /* Debug */,
+				4AA8AE8629E792F3009B96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA8AE8729E792F3009B96AF /* Build configuration list for PBXNativeTarget "RoadMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA8AE8829E792F3009B96AF /* Debug */,
+				4AA8AE8929E792F3009B96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA8AE8A29E792F3009B96AF /* Build configuration list for PBXNativeTarget "RoadMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA8AE8B29E792F3009B96AF /* Debug */,
+				4AA8AE8C29E792F3009B96AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA8AE5229E792F3009B96AF /* Project object */;
+}

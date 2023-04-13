@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5509437CB006F55AA6DA287952668249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A0422A231A06125C9CA5CB2C462D6D3 /* Pods-RoadMateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74967E8F77922E71AFC07E46F4D7E4B5 /* Pods-RoadMateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903095745B4E2ADF40456F4E4D7CFE5C /* Pods-RoadMate-RoadMateUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8757E9A458656F064A2224765091B5CA /* Pods-RoadMate-RoadMateUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F089A4479EDB690E79FA74458B53ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CAA3B364BC74BB82CE774E0F3255C888 /* Pods-RoadMate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C8B28F1260DD4127E7C05D87C8F203 /* Pods-RoadMate-dummy.m */; };
+		CD7BF64E2377AFDB09FF6D29DE4978EC /* Pods-RoadMateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE47AA56BAE997FE65E266F7934AC70 /* Pods-RoadMateTests-dummy.m */; };
+		D28051FD69F2182756CE69A5D86E48E6 /* Pods-RoadMate-RoadMateUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B73F5CA34959EA7073AF9A2F105B3 /* Pods-RoadMate-RoadMateUITests-dummy.m */; };
+		E38FAF41CABC0B2F5E0639E1A05DE6A8 /* Pods-RoadMate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5388F0671ECB5A8AA0E0D21500F67B /* Pods-RoadMate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9E2758EC0965A273D7F7103A20854DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2682C28FC6B8857505E0D10222DAC773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDA6F405E551522D89908660B67B0F1;
+			remoteInfo = "Pods-RoadMate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C056C538E3524F83D92D162BEA101A /* Pods-RoadMate-RoadMateUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RoadMate-RoadMateUITests"; path = Pods_RoadMate_RoadMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E542FA063E4F4C2160F4C1616CE937 /* Pods-RoadMateTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoadMateTests.modulemap"; sourceTree = "<group>"; };
+		187531A1512443EA745B3389D03793AA /* Pods-RoadMateTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoadMateTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		228A2F6DB9A076B5CD01EB716D7645ED /* Pods-RoadMate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadMate-Info.plist"; sourceTree = "<group>"; };
+		3727159F27A81ED81E47CA8A711697E7 /* Pods-RoadMate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadMate-acknowledgements.plist"; sourceTree = "<group>"; };
+		44FCA1437F55271BCB9125EA6114CEE6 /* Pods-RoadMate-RoadMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadMate-RoadMateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		459816EC6F29B2D038EAB5A543C0FF10 /* Pods-RoadMate-RoadMateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadMate-RoadMateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BE47AA56BAE997FE65E266F7934AC70 /* Pods-RoadMateTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoadMateTests-dummy.m"; sourceTree = "<group>"; };
+		5D28290E2775CD716CEEAB46BC1598F0 /* Pods-RoadMate-RoadMateUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoadMate-RoadMateUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74967E8F77922E71AFC07E46F4D7E4B5 /* Pods-RoadMateTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoadMateTests-umbrella.h"; sourceTree = "<group>"; };
+		7CAC433EC699970640FA508C236269A8 /* Pods-RoadMate */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RoadMate"; path = Pods_RoadMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8757E9A458656F064A2224765091B5CA /* Pods-RoadMate-RoadMateUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoadMate-RoadMateUITests-umbrella.h"; sourceTree = "<group>"; };
+		9980D2EF340F3EBDC3A205545EE19E98 /* Pods-RoadMate-RoadMateUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoadMate-RoadMateUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A64B350AED7C08D85786F87D1D347FC7 /* Pods-RoadMate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoadMate.modulemap"; sourceTree = "<group>"; };
+		A969359960D20F56A35EFBFC3EC1F430 /* Pods-RoadMate-RoadMateUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadMate-RoadMateUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3707571E3493FE6281BB3E8414F71C2 /* Pods-RoadMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadMateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B572FC9011A29D4FE356CB23984592C5 /* Pods-RoadMate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoadMate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA7625C0FE36200B459B3A58D1042CD0 /* Pods-RoadMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadMate.release.xcconfig"; sourceTree = "<group>"; };
+		BD1E9A16F282B4B9D555275D8974FA63 /* Pods-RoadMateTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadMateTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE0B6845D18DF46810C43392DCDAFEBD /* Pods-RoadMateTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadMateTests-Info.plist"; sourceTree = "<group>"; };
+		BE2BB19B6B98197B84B17725B963E65F /* Pods-RoadMate-RoadMateUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoadMate-RoadMateUITests-Info.plist"; sourceTree = "<group>"; };
+		C3E0F3C48486724B9D348D09874E0480 /* Pods-RoadMateTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RoadMateTests"; path = Pods_RoadMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54B73F5CA34959EA7073AF9A2F105B3 /* Pods-RoadMate-RoadMateUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoadMate-RoadMateUITests-dummy.m"; sourceTree = "<group>"; };
+		C777238F4C59AC0EF340A1838FCD386E /* Pods-RoadMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadMate.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C8B28F1260DD4127E7C05D87C8F203 /* Pods-RoadMate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoadMate-dummy.m"; sourceTree = "<group>"; };
+		CF5388F0671ECB5A8AA0E0D21500F67B /* Pods-RoadMate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoadMate-umbrella.h"; sourceTree = "<group>"; };
+		F6126786AF3B1C8654331E5A1B492854 /* Pods-RoadMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoadMateTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BD53CF232C5824047D8738143283FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E2758EC0965A273D7F7103A20854DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEA85D5BD430CFB069D0C103A4361D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5509437CB006F55AA6DA287952668249 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F926ECE61AE182AEF1649AB2DC2A14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F089A4479EDB690E79FA74458B53ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2198967F79522EAAA796B15683BEEBDA /* Pods-RoadMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				10E542FA063E4F4C2160F4C1616CE937 /* Pods-RoadMateTests.modulemap */,
+				187531A1512443EA745B3389D03793AA /* Pods-RoadMateTests-acknowledgements.markdown */,
+				BD1E9A16F282B4B9D555275D8974FA63 /* Pods-RoadMateTests-acknowledgements.plist */,
+				4BE47AA56BAE997FE65E266F7934AC70 /* Pods-RoadMateTests-dummy.m */,
+				BE0B6845D18DF46810C43392DCDAFEBD /* Pods-RoadMateTests-Info.plist */,
+				74967E8F77922E71AFC07E46F4D7E4B5 /* Pods-RoadMateTests-umbrella.h */,
+				B3707571E3493FE6281BB3E8414F71C2 /* Pods-RoadMateTests.debug.xcconfig */,
+				F6126786AF3B1C8654331E5A1B492854 /* Pods-RoadMateTests.release.xcconfig */,
+			);
+			name = "Pods-RoadMateTests";
+			path = "Target Support Files/Pods-RoadMateTests";
+			sourceTree = "<group>";
+		};
+		56B976E28836AA452E0A11DC3447D092 /* Pods-RoadMate */ = {
+			isa = PBXGroup;
+			children = (
+				A64B350AED7C08D85786F87D1D347FC7 /* Pods-RoadMate.modulemap */,
+				B572FC9011A29D4FE356CB23984592C5 /* Pods-RoadMate-acknowledgements.markdown */,
+				3727159F27A81ED81E47CA8A711697E7 /* Pods-RoadMate-acknowledgements.plist */,
+				C7C8B28F1260DD4127E7C05D87C8F203 /* Pods-RoadMate-dummy.m */,
+				228A2F6DB9A076B5CD01EB716D7645ED /* Pods-RoadMate-Info.plist */,
+				CF5388F0671ECB5A8AA0E0D21500F67B /* Pods-RoadMate-umbrella.h */,
+				C777238F4C59AC0EF340A1838FCD386E /* Pods-RoadMate.debug.xcconfig */,
+				BA7625C0FE36200B459B3A58D1042CD0 /* Pods-RoadMate.release.xcconfig */,
+			);
+			name = "Pods-RoadMate";
+			path = "Target Support Files/Pods-RoadMate";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AFEE7DA2510DD7A67502CB81C0153502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CAC433EC699970640FA508C236269A8 /* Pods-RoadMate */,
+				09C056C538E3524F83D92D162BEA101A /* Pods-RoadMate-RoadMateUITests */,
+				C3E0F3C48486724B9D348D09874E0480 /* Pods-RoadMateTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AFEE7DA2510DD7A67502CB81C0153502 /* Products */,
+				F581160AA548CB30AB065BAB9C358D75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DECECEC99EB1086898EF7C41A12526 /* Pods-RoadMate-RoadMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9980D2EF340F3EBDC3A205545EE19E98 /* Pods-RoadMate-RoadMateUITests.modulemap */,
+				5D28290E2775CD716CEEAB46BC1598F0 /* Pods-RoadMate-RoadMateUITests-acknowledgements.markdown */,
+				A969359960D20F56A35EFBFC3EC1F430 /* Pods-RoadMate-RoadMateUITests-acknowledgements.plist */,
+				C54B73F5CA34959EA7073AF9A2F105B3 /* Pods-RoadMate-RoadMateUITests-dummy.m */,
+				BE2BB19B6B98197B84B17725B963E65F /* Pods-RoadMate-RoadMateUITests-Info.plist */,
+				8757E9A458656F064A2224765091B5CA /* Pods-RoadMate-RoadMateUITests-umbrella.h */,
+				459816EC6F29B2D038EAB5A543C0FF10 /* Pods-RoadMate-RoadMateUITests.debug.xcconfig */,
+				44FCA1437F55271BCB9125EA6114CEE6 /* Pods-RoadMate-RoadMateUITests.release.xcconfig */,
+			);
+			name = "Pods-RoadMate-RoadMateUITests";
+			path = "Target Support Files/Pods-RoadMate-RoadMateUITests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F581160AA548CB30AB065BAB9C358D75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56B976E28836AA452E0A11DC3447D092 /* Pods-RoadMate */,
+				D1DECECEC99EB1086898EF7C41A12526 /* Pods-RoadMate-RoadMateUITests */,
+				2198967F79522EAAA796B15683BEEBDA /* Pods-RoadMateTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03AA38272F17C0FA2550D263CE295B2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903095745B4E2ADF40456F4E4D7CFE5C /* Pods-RoadMate-RoadMateUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141D096ED494ACB028110248E1B5B7F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38FAF41CABC0B2F5E0639E1A05DE6A8 /* Pods-RoadMate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED42C803A8922E44280C800D191A181 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0422A231A06125C9CA5CB2C462D6D3 /* Pods-RoadMateTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1780846AC944A35069F6B0F494845D55 /* Pods-RoadMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D845A378E69D42499251649EAADFF0CA /* Build configuration list for PBXNativeTarget "Pods-RoadMateTests" */;
+			buildPhases = (
+				FED42C803A8922E44280C800D191A181 /* Headers */,
+				A819095DC800241E7C8682530877ED9C /* Sources */,
+				0CEA85D5BD430CFB069D0C103A4361D7 /* Frameworks */,
+				38583540CA5F1EEFEE17BD259E494C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0969F1D5B69B402948B9A9CF44F31A /* PBXTargetDependency */,
+			);
+			name = "Pods-RoadMateTests";
+			productName = Pods_RoadMateTests;
+			productReference = C3E0F3C48486724B9D348D09874E0480 /* Pods-RoadMateTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F77E040AD25F55E332BABA25D236AC2 /* Pods-RoadMate-RoadMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91594E5E514E9C4919D046ECDBFD0441 /* Build configuration list for PBXNativeTarget "Pods-RoadMate-RoadMateUITests" */;
+			buildPhases = (
+				03AA38272F17C0FA2550D263CE295B2C /* Headers */,
+				A8988E336BFB8DFE7A2EEFF83E1D7117 /* Sources */,
+				0BD53CF232C5824047D8738143283FA8 /* Frameworks */,
+				86616153A3DCB66C0B2A1D9FD7CCA53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RoadMate-RoadMateUITests";
+			productName = Pods_RoadMate_RoadMateUITests;
+			productReference = 09C056C538E3524F83D92D162BEA101A /* Pods-RoadMate-RoadMateUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FDA6F405E551522D89908660B67B0F1 /* Pods-RoadMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F32CCDEF165742207D90CE58D038447 /* Build configuration list for PBXNativeTarget "Pods-RoadMate" */;
+			buildPhases = (
+				141D096ED494ACB028110248E1B5B7F8 /* Headers */,
+				77C00B401ED65F61446997FEBEBE39CC /* Sources */,
+				4F926ECE61AE182AEF1649AB2DC2A14A /* Frameworks */,
+				4B235B041018B568651921462393A9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RoadMate";
+			productName = Pods_RoadMate;
+			productReference = 7CAC433EC699970640FA508C236269A8 /* Pods-RoadMate */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AFEE7DA2510DD7A67502CB81C0153502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FDA6F405E551522D89908660B67B0F1 /* Pods-RoadMate */,
+				2F77E040AD25F55E332BABA25D236AC2 /* Pods-RoadMate-RoadMateUITests */,
+				1780846AC944A35069F6B0F494845D55 /* Pods-RoadMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38583540CA5F1EEFEE17BD259E494C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B235B041018B568651921462393A9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86616153A3DCB66C0B2A1D9FD7CCA53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C00B401ED65F61446997FEBEBE39CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA3B364BC74BB82CE774E0F3255C888 /* Pods-RoadMate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A819095DC800241E7C8682530877ED9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7BF64E2377AFDB09FF6D29DE4978EC /* Pods-RoadMateTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8988E336BFB8DFE7A2EEFF83E1D7117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28051FD69F2182756CE69A5D86E48E6 /* Pods-RoadMate-RoadMateUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A0969F1D5B69B402948B9A9CF44F31A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RoadMate";
+			target = 4FDA6F405E551522D89908660B67B0F1 /* Pods-RoadMate */;
+			targetProxy = 2682C28FC6B8857505E0D10222DAC773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F5392915B5D9A8A90CDAE3C441561D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C777238F4C59AC0EF340A1838FCD386E /* Pods-RoadMate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadMate/Pods-RoadMate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadMate/Pods-RoadMate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E4B335A77ACED1F70BD5D4E160FB4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6126786AF3B1C8654331E5A1B492854 /* Pods-RoadMateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadMateTests/Pods-RoadMateTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadMateTests/Pods-RoadMateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		992ABD865E0D1B039C26D8337358CDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3707571E3493FE6281BB3E8414F71C2 /* Pods-RoadMateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadMateTests/Pods-RoadMateTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadMateTests/Pods-RoadMateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2B7192CA2D3D3902C7337AA33B3E26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7625C0FE36200B459B3A58D1042CD0 /* Pods-RoadMate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadMate/Pods-RoadMate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadMate/Pods-RoadMate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F856F88D4D696479DE575D4781288737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FCA1437F55271BCB9125EA6114CEE6 /* Pods-RoadMate-RoadMateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCF10831988C4AD801ECE2D14DB40C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459816EC6F29B2D038EAB5A543C0FF10 /* Pods-RoadMate-RoadMateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F32CCDEF165742207D90CE58D038447 /* Build configuration list for PBXNativeTarget "Pods-RoadMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5392915B5D9A8A90CDAE3C441561D1 /* Debug */,
+				D2B7192CA2D3D3902C7337AA33B3E26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91594E5E514E9C4919D046ECDBFD0441 /* Build configuration list for PBXNativeTarget "Pods-RoadMate-RoadMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF10831988C4AD801ECE2D14DB40C1E /* Debug */,
+				F856F88D4D696479DE575D4781288737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D845A378E69D42499251649EAADFF0CA /* Build configuration list for PBXNativeTarget "Pods-RoadMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992ABD865E0D1B039C26D8337358CDEA /* Debug */,
+				4E4B335A77ACED1F70BD5D4E160FB4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

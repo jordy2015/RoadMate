@@ -1,0 +1,6 @@
+framework module Pods_RoadMateTests {
+  umbrella header "Pods-RoadMateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
