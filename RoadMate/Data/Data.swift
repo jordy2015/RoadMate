@@ -13,14 +13,24 @@ case moto
 case trailer
 }
 
+struct ServiceDataSource {
+    let sectionName: String
+    let content: [(serviceName: String, imageName: String, descripcion: String)]
+    
+    init(sectionName: String, content: [(serviceName: String, imageName: String, descripcion: String)]) {
+        self.sectionName = sectionName
+        self.content = content
+    }
+}
+
 struct Vehicle {
     let supportTitle: String
-    let supportTyle: SupportType
+    let supportType: SupportType
     let imageName: String
     
     init(supportTitle: String, supportTyle: SupportType, imageName: String) {
         self.supportTitle = supportTitle
-        self.supportTyle = supportTyle
+        self.supportType = supportTyle
         self.imageName = imageName
     }
 }
@@ -56,6 +66,34 @@ class Data {
             Vehicle(supportTitle: "Llantas", supportTyle: .trailer, imageName: "trailerTires"),
         ]
         return trailerData
+    }
+    
+    func getCarServices() -> [ServiceDataSource] {
+        let firstLevelService = [
+            (serviceName: "Revisar Nivel de Agua", imageName: "flag.checkered", descripcion: "Es ideal revisar el agua de tu auto antes de un viaje largo"),
+            (serviceName: "Revisar Aceite de motor", imageName: "flag.checkered", descripcion: "Revisa periodicamente el aceite de tu motor para daños"),
+            (serviceName: "Revisar Liquido de frenos", imageName: "flag.checkered", descripcion: "Es necesario hacerlo al menos 1 vez al mes")
+        ]
+        
+        let secondLevelService = [
+            (serviceName: "Limpiar Bornes de bateria", imageName: "flag.checkered.2.crossed", descripcion: "Con el tiempo los Bornes puede arquirir sarro"),
+            (serviceName: "Reemplazo de Fusibles", imageName: "flag.checkered.2.crossed", descripcion: "Una falla tipica en el funcionamiento adecuado del motor"),
+            (serviceName: "Cambio de Filtro de aire", imageName: "flag.checkered.2.crossed", descripcion: "Es aconsejable hacerlo cada 2 servicios")
+        ]
+        
+        let otherLevelService = [
+            (serviceName: "Pasar Corriente", imageName: "exclamationmark.triangle", descripcion: "Si te quedas si carga puedes seguir los siguientes pasos"),
+            (serviceName: "Cambio de aceite", imageName: "exclamationmark.triangle", descripcion: "Necesitas equipo especial para hacerlo"),
+            (serviceName: "Cambio liquido de frenos", imageName: "exclamationmark.triangle", descripcion: "Tarea sencilla y necesaria")
+        ]
+        
+        let data = [
+            ServiceDataSource(sectionName: "Mantenimiento de Primer Nivel", content: firstLevelService),
+            ServiceDataSource(sectionName: "Mantenimiento de segundo Nivel", content: secondLevelService),
+            ServiceDataSource(sectionName: "Avanzado", content: otherLevelService)
+        ]
+        
+        return data
     }
 }
 

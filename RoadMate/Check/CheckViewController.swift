@@ -9,6 +9,8 @@ import UIKit
 
 class CheckViewController: UIViewController {
     
+    private var vehicleSelected: Vehicle?
+    
     let carSection: CheckView = {
         let view = CheckView()
         return view.loadViewFromXib(withClassName: CheckView.self)
@@ -75,6 +77,13 @@ class CheckViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vehicle = self.vehicleSelected {
+            (segue.destination as? ServicesViewController)?.serviceType = vehicle.supportType
+            self.vehicleSelected = nil
+        }
+    }
 
     func setupUI() {
         view.addSubview(scrollView)
@@ -114,6 +123,7 @@ class CheckViewController: UIViewController {
 
 extension CheckViewController: CheckViewProtocol {
     func didTapOnCell(vehicle: Vehicle) {
-        print(vehicle)
+        vehicleSelected = vehicle
+        performSegue(withIdentifier: "SegueToService", sender: nil)
     }
 }
