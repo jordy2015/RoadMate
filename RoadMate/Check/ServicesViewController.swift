@@ -22,7 +22,6 @@ class ServicesViewController: UIViewController {
         }
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
@@ -37,6 +36,14 @@ class ServicesViewController: UIViewController {
                 break
             }
         }
+    }
+    
+    func showAlert() {
+        let uialert = UIAlertController(title: "¿Como deseas continuar?", message: nil, preferredStyle: UIAlertController.Style.alert)
+        uialert.addAction(UIAlertAction(title: "Ver Video", style: UIAlertAction.Style.default, handler: nil))
+        uialert.addAction(UIAlertAction(title: "Ver Guia", style: UIAlertAction.Style.default, handler: nil))
+        uialert.addAction(UIAlertAction(title: "Cancelar", style: UIAlertAction.Style.default, handler: nil))
+        self.present(uialert, animated: true, completion: nil)
     }
 }
 
@@ -64,5 +71,9 @@ extension ServicesViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return data[section].sectionName
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        showAlert()
     }
 }
