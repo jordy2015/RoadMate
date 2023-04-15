@@ -23,6 +23,12 @@ class LoginViewController: UIViewController {
         }
     }
     
+    @IBAction func loginButtonAction(_ sender: Any) {
+     
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let newRootViewController = storyBoard.instantiateViewController(withIdentifier: "TabBarViewController") as! UITabBarController
+        self.window?.rootViewController = newRootViewController
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

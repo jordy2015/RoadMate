@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		048A8D2F338F371727569250 /* Pods_RoadMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB00E30B7FC7CFAAB0405B3A /* Pods_RoadMate.framework */; };
 		24839CA49B285226AB9AFCB4 /* Pods_RoadMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD204BD5835A4324B84DC5B /* Pods_RoadMateTests.framework */; };
+		4A1D283929E915D5002F7B99 /* CheckView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1D283829E915D5002F7B99 /* CheckView.xib */; };
+		4A1D283B29E91748002F7B99 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D283A29E91748002F7B99 /* CheckView.swift */; };
+		4A1D283F29E9182A002F7B99 /* CheckViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D283D29E9182A002F7B99 /* CheckViewCell.swift */; };
+		4A1D284029E9182A002F7B99 /* CheckViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1D283E29E9182A002F7B99 /* CheckViewCell.xib */; };
+		4A1D284329E91BE8002F7B99 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D284229E91BE8002F7B99 /* CheckViewController.swift */; };
+		4A1D284629E91C8E002F7B99 /* UIVIew+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D284529E91C8E002F7B99 /* UIVIew+Extensions.swift */; };
+		4A1D284829E91CC0002F7B99 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D284729E91CC0002F7B99 /* UIViewController+Extensions.swift */; };
+		4A65B1CA29EA593C0086EE56 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B1C929EA593C0086EE56 /* Data.swift */; };
+		4A65B1CD29EA65AF0086EE56 /* CheckViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B1CC29EA65AF0086EE56 /* CheckViewProtocol.swift */; };
+		4A65B1D029EA68BA0086EE56 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B1CF29EA68BA0086EE56 /* PaymentViewController.swift */; };
+		4A65B1D329EA68EE0086EE56 /* PaymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A65B1D129EA68EE0086EE56 /* PaymentCell.xib */; };
+		4A65B1D429EA68EE0086EE56 /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B1D229EA68EE0086EE56 /* PaymentCell.swift */; };
 		4AA8AE5E29E792F3009B96AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE5D29E792F3009B96AF /* AppDelegate.swift */; };
 		4AA8AE6029E792F3009B96AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE5F29E792F3009B96AF /* SceneDelegate.swift */; };
 		4AA8AE6229E792F3009B96AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8AE6129E792F3009B96AF /* LoginViewController.swift */; };
@@ -42,6 +54,18 @@
 /* Begin PBXFileReference section */
 		11DA87D401961A71F438F12E /* Pods-RoadMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadMate.debug.xcconfig"; path = "Target Support Files/Pods-RoadMate/Pods-RoadMate.debug.xcconfig"; sourceTree = "<group>"; };
 		2DD204BD5835A4324B84DC5B /* Pods_RoadMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoadMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1D283829E915D5002F7B99 /* CheckView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckView.xib; sourceTree = "<group>"; };
+		4A1D283A29E91748002F7B99 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		4A1D283D29E9182A002F7B99 /* CheckViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewCell.swift; sourceTree = "<group>"; };
+		4A1D283E29E9182A002F7B99 /* CheckViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckViewCell.xib; sourceTree = "<group>"; };
+		4A1D284229E91BE8002F7B99 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		4A1D284529E91C8E002F7B99 /* UIVIew+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extensions.swift"; sourceTree = "<group>"; };
+		4A1D284729E91CC0002F7B99 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		4A65B1C929EA593C0086EE56 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4A65B1CC29EA65AF0086EE56 /* CheckViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewProtocol.swift; sourceTree = "<group>"; };
+		4A65B1CF29EA68BA0086EE56 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		4A65B1D129EA68EE0086EE56 /* PaymentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentCell.xib; sourceTree = "<group>"; };
+		4A65B1D229EA68EE0086EE56 /* PaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
 		4AA8AE5A29E792F3009B96AF /* RoadMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA8AE5D29E792F3009B96AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA8AE5F29E792F3009B96AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +117,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A1D283C29E917FA002F7B99 /* CheckViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D283D29E9182A002F7B99 /* CheckViewCell.swift */,
+				4A1D283E29E9182A002F7B99 /* CheckViewCell.xib */,
+			);
+			path = CheckViewCell;
+			sourceTree = "<group>";
+		};
+		4A1D284129E91BBE002F7B99 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D284229E91BE8002F7B99 /* CheckViewController.swift */,
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		4A1D284429E91C18002F7B99 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D284529E91C8E002F7B99 /* UIVIew+Extensions.swift */,
+				4A1D284729E91CC0002F7B99 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A65B1C829EA58300086EE56 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4A65B1C929EA593C0086EE56 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4A65B1CB29EA65700086EE56 /* CheckView */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D283829E915D5002F7B99 /* CheckView.xib */,
+				4A1D283A29E91748002F7B99 /* CheckView.swift */,
+				4A65B1CC29EA65AF0086EE56 /* CheckViewProtocol.swift */,
+			);
+			path = CheckView;
+			sourceTree = "<group>";
+		};
+		4A65B1CE29EA68A00086EE56 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				4A65B1D229EA68EE0086EE56 /* PaymentCell.swift */,
+				4A65B1D129EA68EE0086EE56 /* PaymentCell.xib */,
+				4A65B1CF29EA68BA0086EE56 /* PaymentViewController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
 		4AA8AE5129E792F3009B96AF = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +196,12 @@
 		4AA8AE5C29E792F3009B96AF /* RoadMate */ = {
 			isa = PBXGroup;
 			children = (
+				4A65B1CE29EA68A00086EE56 /* Payment */,
+				4A65B1CB29EA65700086EE56 /* CheckView */,
+				4A65B1C829EA58300086EE56 /* Data */,
+				4A1D284429E91C18002F7B99 /* Extensions */,
+				4A1D284129E91BBE002F7B99 /* Check */,
+				4A1D283C29E917FA002F7B99 /* CheckViewCell */,
 				4AA8AE5D29E792F3009B96AF /* AppDelegate.swift */,
 				4AA8AE5F29E792F3009B96AF /* SceneDelegate.swift */,
 				4AA8AE6129E792F3009B96AF /* LoginViewController.swift */,
@@ -278,8 +362,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC5DBE429E7A1D3002A0A4F /* roadMateVideo.mp4 in Resources */,
+				4A65B1D329EA68EE0086EE56 /* PaymentCell.xib in Resources */,
 				4AA8AE6A29E792F3009B96AF /* LaunchScreen.storyboard in Resources */,
 				4AA8AE6729E792F3009B96AF /* Assets.xcassets in Resources */,
+				4A1D284029E9182A002F7B99 /* CheckViewCell.xib in Resources */,
+				4A1D283929E915D5002F7B99 /* CheckView.xib in Resources */,
 				4AA8AE6529E792F3009B96AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,8 +462,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AA8AE6229E792F3009B96AF /* LoginViewController.swift in Sources */,
+				4A65B1CD29EA65AF0086EE56 /* CheckViewProtocol.swift in Sources */,
+				4A1D284629E91C8E002F7B99 /* UIVIew+Extensions.swift in Sources */,
 				4AA8AE5E29E792F3009B96AF /* AppDelegate.swift in Sources */,
 				4AA8AE6029E792F3009B96AF /* SceneDelegate.swift in Sources */,
+				4A1D284829E91CC0002F7B99 /* UIViewController+Extensions.swift in Sources */,
+				4A65B1D429EA68EE0086EE56 /* PaymentCell.swift in Sources */,
+				4A65B1D029EA68BA0086EE56 /* PaymentViewController.swift in Sources */,
+				4A1D284329E91BE8002F7B99 /* CheckViewController.swift in Sources */,
+				4A1D283F29E9182A002F7B99 /* CheckViewCell.swift in Sources */,
+				4A65B1CA29EA593C0086EE56 /* Data.swift in Sources */,
+				4A1D283B29E91748002F7B99 /* CheckView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

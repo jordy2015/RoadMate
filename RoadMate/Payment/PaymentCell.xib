@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="Xnv-bF-LSI" customClass="PaymentCell" customModule="RoadMate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="182"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xnv-bF-LSI" id="0td-UO-wND">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="182"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="texture" translatesAutoresizingMaskIntoConstraints="NO" id="wOP-YQ-6lY">
+                        <rect key="frame" x="5" y="5" width="339" height="172"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sim" translatesAutoresizingMaskIntoConstraints="NO" id="mRC-cm-ASF">
+                        <rect key="frame" x="25" y="45.5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Tga-Oy-8o8"/>
+                            <constraint firstAttribute="width" constant="50" id="cbx-h7-bnU"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234 1234 1234 1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJq-xz-dfb" userLabel="numberCard">
+                        <rect key="frame" x="40" y="100.5" width="269" height="21"/>
+                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
+                        <color key="textColor" red="0.84913020179999998" green="0.84913020179999998" blue="0.84913020179999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mastercard" translatesAutoresizingMaskIntoConstraints="NO" id="Che-st-Ir7">
+                        <rect key="frame" x="279" y="126.5" width="60" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="ALA-eY-BSz"/>
+                            <constraint firstAttribute="height" constant="50" id="mRb-QK-EoE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maria Agullar Perez Sosa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueR-si-AO5" userLabel="nombre">
+                        <rect key="frame" x="40" y="126.5" width="229" height="16.5"/>
+                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="14"/>
+                        <color key="textColor" red="0.84913020179999998" green="0.84913020179999998" blue="0.84913020179999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de exp.:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHI-qa-crT">
+                        <rect key="frame" x="40" y="148" width="40" height="21.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="uwH-Ms-zMd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYe-5t-Dm9" userLabel="dateE">
+                        <rect key="frame" x="88" y="148" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Wm9-2z-cFM"/>
+                            <constraint firstAttribute="height" constant="20" id="ou6-fh-gtQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="11"/>
+                        <color key="textColor" red="0.84913020179999998" green="0.84913020179999998" blue="0.84913020179999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tHI-qa-crT" firstAttribute="top" secondItem="ueR-si-AO5" secondAttribute="bottom" constant="5" id="0DQ-23-xYa"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="HJq-xz-dfb" secondAttribute="trailing" constant="20" id="7vG-mV-szU"/>
+                    <constraint firstAttribute="trailing" secondItem="wOP-YQ-6lY" secondAttribute="trailing" constant="5" id="8Y8-7m-2sZ"/>
+                    <constraint firstItem="Che-st-Ir7" firstAttribute="top" secondItem="HJq-xz-dfb" secondAttribute="bottom" constant="5" id="9cD-qv-WJV"/>
+                    <constraint firstItem="ueR-si-AO5" firstAttribute="leading" secondItem="0td-UO-wND" secondAttribute="leading" constant="40" id="AJh-3w-n9n"/>
+                    <constraint firstItem="FYe-5t-Dm9" firstAttribute="leading" secondItem="tHI-qa-crT" secondAttribute="trailing" constant="8" id="PHg-IV-oZI"/>
+                    <constraint firstItem="wOP-YQ-6lY" firstAttribute="top" secondItem="0td-UO-wND" secondAttribute="top" constant="5" id="TSz-Z3-APr"/>
+                    <constraint firstAttribute="bottom" secondItem="wOP-YQ-6lY" secondAttribute="bottom" constant="5" id="WzE-lu-OfS"/>
+                    <constraint firstItem="wOP-YQ-6lY" firstAttribute="leading" secondItem="0td-UO-wND" secondAttribute="leading" constant="5" id="hM3-Ls-ubL"/>
+                    <constraint firstItem="ueR-si-AO5" firstAttribute="top" secondItem="Che-st-Ir7" secondAttribute="top" id="hj2-im-kjK"/>
+                    <constraint firstItem="HJq-xz-dfb" firstAttribute="centerY" secondItem="0td-UO-wND" secondAttribute="centerY" constant="20" id="ldo-bz-GT5"/>
+                    <constraint firstItem="FYe-5t-Dm9" firstAttribute="top" secondItem="tHI-qa-crT" secondAttribute="top" id="ng2-nD-8tg"/>
+                    <constraint firstItem="Che-st-Ir7" firstAttribute="leading" secondItem="ueR-si-AO5" secondAttribute="trailing" constant="10" id="qp2-UC-DsY"/>
+                    <constraint firstItem="HJq-xz-dfb" firstAttribute="top" secondItem="mRC-cm-ASF" secondAttribute="bottom" constant="5" id="ryF-HY-cci"/>
+                    <constraint firstAttribute="trailing" secondItem="Che-st-Ir7" secondAttribute="trailing" constant="10" id="saq-lD-utW"/>
+                    <constraint firstItem="tHI-qa-crT" firstAttribute="leading" secondItem="0td-UO-wND" secondAttribute="leading" constant="40" id="vt6-Hn-wRP"/>
+                    <constraint firstItem="HJq-xz-dfb" firstAttribute="leading" secondItem="0td-UO-wND" secondAttribute="leadingMargin" constant="20" id="yLd-5X-8tZ"/>
+                    <constraint firstItem="mRC-cm-ASF" firstAttribute="leading" secondItem="0td-UO-wND" secondAttribute="leading" constant="25" id="zb4-d6-Nxk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateE" destination="FYe-5t-Dm9" id="ndn-q0-ZnZ"/>
+                <outlet property="name" destination="ueR-si-AO5" id="J3W-j5-zQX"/>
+                <outlet property="providerLogo" destination="Che-st-Ir7" id="wVd-Ey-zvV"/>
+                <outlet property="tarjetNum" destination="HJq-xz-dfb" id="9mD-gV-3F3"/>
+            </connections>
+            <point key="canvasLocation" x="84.782608695652186" y="198.88392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mastercard" width="185" height="152"/>
+        <image name="sim" width="207" height="184"/>
+        <image name="texture" width="960" height="540"/>
+    </resources>
+</document>
