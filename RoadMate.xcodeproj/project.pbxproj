@@ -17,6 +17,12 @@
 		4A1D284329E91BE8002F7B99 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D284229E91BE8002F7B99 /* CheckViewController.swift */; };
 		4A1D284629E91C8E002F7B99 /* UIVIew+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D284529E91C8E002F7B99 /* UIVIew+Extensions.swift */; };
 		4A1D284829E91CC0002F7B99 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D284729E91CC0002F7B99 /* UIViewController+Extensions.swift */; };
+		4A2DE69429EE40850049D32F /* ContactExpertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DE69329EE40850049D32F /* ContactExpertViewController.swift */; };
+		4A2DE69629EE4D190049D32F /* TutorialsPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DE69529EE4D190049D32F /* TutorialsPlayerViewController.swift */; };
+		4A2DE69829EE4DF10049D32F /* checkCarburador.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A2DE69729EE4DF10049D32F /* checkCarburador.mp4 */; };
+		4A2DE69A29EE57BA0049D32F /* TutorialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DE69929EE57BA0049D32F /* TutorialsViewController.swift */; };
+		4A2DE69D29EE59F40049D32F /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DE69C29EE59F40049D32F /* TutorialView.swift */; };
+		4A2DE6A029EE5A0C0049D32F /* TutorialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2DE69F29EE5A0C0049D32F /* TutorialView.xib */; };
 		4A65B1CA29EA593C0086EE56 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B1C929EA593C0086EE56 /* Data.swift */; };
 		4A65B1CD29EA65AF0086EE56 /* CheckViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B1CC29EA65AF0086EE56 /* CheckViewProtocol.swift */; };
 		4A65B1D029EA68BA0086EE56 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B1CF29EA68BA0086EE56 /* PaymentViewController.swift */; };
@@ -63,6 +69,12 @@
 		4A1D284229E91BE8002F7B99 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 		4A1D284529E91C8E002F7B99 /* UIVIew+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extensions.swift"; sourceTree = "<group>"; };
 		4A1D284729E91CC0002F7B99 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		4A2DE69329EE40850049D32F /* ContactExpertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactExpertViewController.swift; sourceTree = "<group>"; };
+		4A2DE69529EE4D190049D32F /* TutorialsPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsPlayerViewController.swift; sourceTree = "<group>"; };
+		4A2DE69729EE4DF10049D32F /* checkCarburador.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = checkCarburador.mp4; sourceTree = "<group>"; };
+		4A2DE69929EE57BA0049D32F /* TutorialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsViewController.swift; sourceTree = "<group>"; };
+		4A2DE69C29EE59F40049D32F /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		4A2DE69F29EE5A0C0049D32F /* TutorialView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TutorialView.xib; sourceTree = "<group>"; };
 		4A65B1C929EA593C0086EE56 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		4A65B1CC29EA65AF0086EE56 /* CheckViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewProtocol.swift; sourceTree = "<group>"; };
 		4A65B1CF29EA68BA0086EE56 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
@@ -131,8 +143,11 @@
 		4A1D284129E91BBE002F7B99 /* Check */ = {
 			isa = PBXGroup;
 			children = (
+				4A2DE69B29EE59CE0049D32F /* TutorialView */,
 				4A1D284229E91BE8002F7B99 /* CheckViewController.swift */,
 				4A1487FB29EAE6FF00342CC7 /* ServicesViewController.swift */,
+				4A2DE69529EE4D190049D32F /* TutorialsPlayerViewController.swift */,
+				4A2DE69929EE57BA0049D32F /* TutorialsViewController.swift */,
 			);
 			path = Check;
 			sourceTree = "<group>";
@@ -144,6 +159,23 @@
 				4A1D284729E91CC0002F7B99 /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A2DE69229EE40690049D32F /* ContactExpert */ = {
+			isa = PBXGroup;
+			children = (
+				4A2DE69329EE40850049D32F /* ContactExpertViewController.swift */,
+			);
+			path = ContactExpert;
+			sourceTree = "<group>";
+		};
+		4A2DE69B29EE59CE0049D32F /* TutorialView */ = {
+			isa = PBXGroup;
+			children = (
+				4A2DE69C29EE59F40049D32F /* TutorialView.swift */,
+				4A2DE69F29EE5A0C0049D32F /* TutorialView.xib */,
+			);
+			path = TutorialView;
 			sourceTree = "<group>";
 		};
 		4A65B1C829EA58300086EE56 /* Data */ = {
@@ -199,6 +231,7 @@
 		4AA8AE5C29E792F3009B96AF /* RoadMate */ = {
 			isa = PBXGroup;
 			children = (
+				4A2DE69229EE40690049D32F /* ContactExpert */,
 				4A65B1CE29EA68A00086EE56 /* Payment */,
 				4A65B1CB29EA65700086EE56 /* CheckView */,
 				4A65B1C829EA58300086EE56 /* Data */,
@@ -211,6 +244,7 @@
 				4AA8AE6329E792F3009B96AF /* Main.storyboard */,
 				4AA8AE6629E792F3009B96AF /* Assets.xcassets */,
 				4AC5DBE329E7A1D3002A0A4F /* roadMateVideo.mp4 */,
+				4A2DE69729EE4DF10049D32F /* checkCarburador.mp4 */,
 				4AA8AE6829E792F3009B96AF /* LaunchScreen.storyboard */,
 				4AA8AE6B29E792F3009B96AF /* Info.plist */,
 			);
@@ -268,6 +302,7 @@
 				4AA8AE5629E792F3009B96AF /* Sources */,
 				4AA8AE5729E792F3009B96AF /* Frameworks */,
 				4AA8AE5829E792F3009B96AF /* Resources */,
+				111907177D559ED0EA5E9885 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,6 +340,7 @@
 				4AA8AE7629E792F3009B96AF /* Sources */,
 				4AA8AE7729E792F3009B96AF /* Frameworks */,
 				4AA8AE7829E792F3009B96AF /* Resources */,
+				1F2259F808B70430AC9F5144 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -368,7 +404,9 @@
 				4A65B1D329EA68EE0086EE56 /* PaymentCell.xib in Resources */,
 				4AA8AE6A29E792F3009B96AF /* LaunchScreen.storyboard in Resources */,
 				4AA8AE6729E792F3009B96AF /* Assets.xcassets in Resources */,
+				4A2DE6A029EE5A0C0049D32F /* TutorialView.xib in Resources */,
 				4A1D284029E9182A002F7B99 /* CheckViewCell.xib in Resources */,
+				4A2DE69829EE4DF10049D32F /* checkCarburador.mp4 in Resources */,
 				4A1D283929E915D5002F7B99 /* CheckView.xib in Resources */,
 				4AA8AE6529E792F3009B96AF /* Main.storyboard in Resources */,
 			);
@@ -391,6 +429,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		111907177D559ED0EA5E9885 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadMate/Pods-RoadMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadMate/Pods-RoadMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoadMate/Pods-RoadMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F2259F808B70430AC9F5144 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoadMate-RoadMateUITests/Pods-RoadMate-RoadMateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3B7EB81404D729D8FFC02E5F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,13 +541,17 @@
 				4A1D284629E91C8E002F7B99 /* UIVIew+Extensions.swift in Sources */,
 				4A1487FC29EAE6FF00342CC7 /* ServicesViewController.swift in Sources */,
 				4AA8AE5E29E792F3009B96AF /* AppDelegate.swift in Sources */,
+				4A2DE69629EE4D190049D32F /* TutorialsPlayerViewController.swift in Sources */,
 				4AA8AE6029E792F3009B96AF /* SceneDelegate.swift in Sources */,
 				4A1D284829E91CC0002F7B99 /* UIViewController+Extensions.swift in Sources */,
 				4A65B1D429EA68EE0086EE56 /* PaymentCell.swift in Sources */,
+				4A2DE69D29EE59F40049D32F /* TutorialView.swift in Sources */,
 				4A65B1D029EA68BA0086EE56 /* PaymentViewController.swift in Sources */,
 				4A1D284329E91BE8002F7B99 /* CheckViewController.swift in Sources */,
 				4A1D283F29E9182A002F7B99 /* CheckViewCell.swift in Sources */,
+				4A2DE69429EE40850049D32F /* ContactExpertViewController.swift in Sources */,
 				4A65B1CA29EA593C0086EE56 /* Data.swift in Sources */,
+				4A2DE69A29EE57BA0049D32F /* TutorialsViewController.swift in Sources */,
 				4A1D283B29E91748002F7B99 /* CheckView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -40,8 +40,12 @@ class ServicesViewController: UIViewController {
     
     func showAlert() {
         let uialert = UIAlertController(title: "¿Como deseas continuar?", message: nil, preferredStyle: UIAlertController.Style.alert)
-        uialert.addAction(UIAlertAction(title: "Ver Video", style: UIAlertAction.Style.default, handler: nil))
-        uialert.addAction(UIAlertAction(title: "Ver Guia", style: UIAlertAction.Style.default, handler: nil))
+        uialert.addAction(UIAlertAction(title: "Ver Video", style: UIAlertAction.Style.default, handler: {_ in
+            self.performSegue(withIdentifier: "PlayTutorialSegue", sender: nil)
+        }))
+        uialert.addAction(UIAlertAction(title: "Ver Guia", style: UIAlertAction.Style.default, handler: {_ in
+            self.performSegue(withIdentifier: "TutorialSegue", sender: nil)
+        }))
         uialert.addAction(UIAlertAction(title: "Cancelar", style: UIAlertAction.Style.default, handler: nil))
         self.present(uialert, animated: true, completion: nil)
     }

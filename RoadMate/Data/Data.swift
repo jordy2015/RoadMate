@@ -95,6 +95,15 @@ class Data {
         
         return data
     }
+    
+    func getExperts() -> [(name: String, description: String)] {
+        return [
+            (name: "Roberto Aguirre", description: "Mecanico con 3 años de experiencia"),
+            (name: "Mario Campo", description: "Electrico con 5 años de experiencia"),
+            (name: "Juan Rodriguez", description: "Experto en Frenos"),
+            (name: "Roberto Lopez", description: "Alineacion y balanceo"),
+        ]
+    }
 }
 
 

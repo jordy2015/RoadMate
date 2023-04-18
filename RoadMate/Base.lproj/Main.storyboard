@@ -352,8 +352,8 @@
                                                 <rect key="frame" x="10" y="0.0" width="177.33333333333334" height="130"/>
                                                 <string key="text">Distancia: 5 km
 Servicio: Q90
-fees: Q20
-total: Q110</string>
+fees: Q18 (20%)
+total: Q108</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -422,7 +422,7 @@ XRK354</string>
                                     <constraint firstAttribute="height" constant="50" id="Qqo-VN-hxV"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Adquirir Servicio Q110"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Adquirir Servicio Q108"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpt-3M-2Ya">
                                 <rect key="frame" x="10" y="609" width="355" height="50"/>
@@ -476,19 +476,34 @@ XRK354</string>
             </objects>
             <point key="canvasLocation" x="1158" y="461"/>
         </scene>
-        <!--Contactar Experto-->
+        <!--Expertos Disponibles-->
         <scene sceneID="b7e-AU-eqk">
             <objects>
-                <viewController id="qu3-hy-e2n" sceneMemberID="viewController">
+                <viewController id="qu3-hy-e2n" customClass="ContactExpertViewController" customModule="RoadMate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xMC-eW-wzB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="E9g-er-deH">
+                                <rect key="frame" x="0.0" y="91" width="375" height="638"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lGP-z5-GDg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lGP-z5-GDg" firstAttribute="trailing" secondItem="E9g-er-deH" secondAttribute="trailing" id="1ST-hD-kan"/>
+                            <constraint firstItem="lGP-z5-GDg" firstAttribute="bottom" secondItem="E9g-er-deH" secondAttribute="bottom" id="333-ut-Fbv"/>
+                            <constraint firstItem="E9g-er-deH" firstAttribute="top" secondItem="lGP-z5-GDg" secondAttribute="top" id="C1h-Q5-9cl"/>
+                            <constraint firstItem="E9g-er-deH" firstAttribute="leading" secondItem="lGP-z5-GDg" secondAttribute="leading" id="KXd-Ic-NZ9"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Contactar Experto" id="agb-ym-a6B">
+                    <navigationItem key="navigationItem" title="Expertos Disponibles" id="agb-ym-a6B">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="person.crop.circle" catalog="system" id="SqB-uR-VwJ"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="E9g-er-deH" id="4P2-pV-ra7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kkb-dY-W7J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -593,11 +608,66 @@ XRK354</string>
                     <navigationItem key="navigationItem" id="Pcn-gH-QUv"/>
                     <connections>
                         <outlet property="tableView" destination="qhF-2t-zxO" id="Yt2-hB-MUZ"/>
+                        <segue destination="NV3-FO-9Rv" kind="presentation" identifier="PlayTutorialSegue" id="OHA-mf-MS0"/>
+                        <segue destination="8JU-Nv-U1D" kind="presentation" identifier="TutorialSegue" modalPresentationStyle="fullScreen" id="edf-va-41u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SPv-1D-ece" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2910" y="-916"/>
+        </scene>
+        <!--Tutorials View Controller-->
+        <scene sceneID="mAh-fs-pwJ">
+            <objects>
+                <viewController id="8JU-Nv-U1D" customClass="TutorialsViewController" customModule="RoadMate" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x1z-lC-Aim">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHY-hr-tew" userLabel="content">
+                                <rect key="frame" x="0.0" y="47" width="375" height="682"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udj-tZ-RNp">
+                                <rect key="frame" x="325" y="47" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cbd-OZ-aYN"/>
+                                    <constraint firstAttribute="width" constant="50" id="lWe-Qf-dO3"/>
+                                </constraints>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="closeAction:" destination="8JU-Nv-U1D" eventType="touchUpInside" id="MLT-t9-HVc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LLL-Ms-11C"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="udj-tZ-RNp" firstAttribute="top" secondItem="LLL-Ms-11C" secondAttribute="top" id="2eU-K0-dSv"/>
+                            <constraint firstItem="LLL-Ms-11C" firstAttribute="trailing" secondItem="hHY-hr-tew" secondAttribute="trailing" id="4Hi-Ta-BNq"/>
+                            <constraint firstItem="LLL-Ms-11C" firstAttribute="trailing" secondItem="udj-tZ-RNp" secondAttribute="trailing" id="QkW-NT-nyt"/>
+                            <constraint firstItem="hHY-hr-tew" firstAttribute="top" secondItem="LLL-Ms-11C" secondAttribute="top" id="Yzd-LI-RmL"/>
+                            <constraint firstItem="LLL-Ms-11C" firstAttribute="bottom" secondItem="hHY-hr-tew" secondAttribute="bottom" id="kAF-J7-0Y5"/>
+                            <constraint firstItem="hHY-hr-tew" firstAttribute="leading" secondItem="LLL-Ms-11C" secondAttribute="leading" id="kD7-Xn-YFw"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="contentView" destination="hHY-hr-tew" id="Qi6-Db-uel"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AEv-Ze-UAx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3990" y="-641"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="LPx-Zw-gfH">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="NV3-FO-9Rv" customClass="TutorialsPlayerViewController" customModule="RoadMate" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RtN-iT-oUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3930" y="-1520"/>
         </scene>
     </scenes>
     <resources>
