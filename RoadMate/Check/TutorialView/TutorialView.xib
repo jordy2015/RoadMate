@@ -50,17 +50,15 @@
                                     <rect key="frame" x="0.0" y="215.5" width="355" height="216"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carBoard" translatesAutoresizingMaskIntoConstraints="NO" id="FkH-M6-Me3">
-                                            <rect key="frame" x="57.5" y="33" width="240" height="150"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="240" id="6YN-4P-1pL"/>
-                                                <constraint firstAttribute="height" constant="150" id="RD0-jz-oiI"/>
-                                            </constraints>
+                                            <rect key="frame" x="20" y="10" width="315" height="196"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
-                                        <constraint firstItem="FkH-M6-Me3" firstAttribute="centerX" secondItem="dQC-ZY-XyD" secondAttribute="centerX" id="4Yg-Cn-DLG"/>
-                                        <constraint firstItem="FkH-M6-Me3" firstAttribute="centerY" secondItem="dQC-ZY-XyD" secondAttribute="centerY" id="LKZ-46-SsR"/>
+                                        <constraint firstAttribute="trailing" secondItem="FkH-M6-Me3" secondAttribute="trailing" constant="20" id="Mz2-ja-idu"/>
+                                        <constraint firstItem="FkH-M6-Me3" firstAttribute="leading" secondItem="dQC-ZY-XyD" secondAttribute="leading" constant="20" id="Xfm-0k-UqQ"/>
+                                        <constraint firstAttribute="bottom" secondItem="FkH-M6-Me3" secondAttribute="bottom" constant="10" id="czq-WP-eyr"/>
+                                        <constraint firstItem="FkH-M6-Me3" firstAttribute="top" secondItem="dQC-ZY-XyD" secondAttribute="top" constant="10" id="lYi-oV-x8N"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W00-n6-2FA">
@@ -103,6 +101,12 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="wxh-cP-f5O" secondAttribute="bottom" constant="10" id="l5M-aV-bWU"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wxh-cP-f5O" secondAttribute="trailing" constant="10" id="qDk-Zq-BOz"/>
             </constraints>
+            <connections>
+                <outlet property="descriptionText" destination="AEe-Nt-b2q" id="w5k-ai-Pjw"/>
+                <outlet property="exampleImage" destination="FkH-M6-Me3" id="b8Q-NL-86w"/>
+                <outlet property="stepLabel" destination="ckw-zr-vTP" id="Vbk-vd-2TP"/>
+                <outlet property="titleLabel" destination="WUy-cg-A9K" id="5EZ-H5-hM6"/>
+            </connections>
             <point key="canvasLocation" x="36" y="20"/>
         </view>
     </objects>

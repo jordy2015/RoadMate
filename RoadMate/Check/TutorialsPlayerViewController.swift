@@ -31,7 +31,7 @@ class TutorialsPlayerViewController: AVPlayerViewController {
     }
     
     @objc func playerItemDidReachEnd(notification: Notification) {
-        self.dismiss(animated: true)
+        
     }
 
 }

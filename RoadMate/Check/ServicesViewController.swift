@@ -31,8 +31,10 @@ class ServicesViewController: UIViewController {
             case .car:
                 data = Data.default.getCarServices()
             case .moto:
+                data = Data.default.getMotoServices()
                 break
             default:
+                data = Data.default.getCarServices()
                 break
             }
         }

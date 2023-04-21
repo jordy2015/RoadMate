@@ -96,6 +96,33 @@ class Data {
         return data
     }
     
+    func getMotoServices() -> [ServiceDataSource] {
+        let firstLevelService = [
+            (serviceName: "Starter de aire manual", imageName: "flag.checkered", descripcion: "Es recomendable revisar el flujo de aire"),
+            (serviceName: "Agujas de alta y baja", imageName: "flag.checkered", descripcion: "Revisa periodicamente la Agujas "),
+            (serviceName: "Entrada de aire", imageName: "flag.checkered", descripcion: "Es necesario hacerlo al menos 1 vez al mes")
+        ]
+        
+        let secondLevelService = [
+            (serviceName: "Tornillo Relenti", imageName: "flag.checkered.2.crossed", descripcion: "Recomendable ajustar este tornillo"),
+            (serviceName: "Tornillo de Aire", imageName: "flag.checkered.2.crossed", descripcion: "Para un optimo funcionamiento es necesario revisarlo"),
+            (serviceName: "Tornillo de drenaje", imageName: "flag.checkered.2.crossed", descripcion: "Es aconsejable hacerlo cada 2 servicios"),
+            (serviceName: "Boya", imageName: "flag.checkered.2.crossed", descripcion: "Revisa periodicamente")
+        ]
+        
+        let otherLevelService = [
+            (serviceName: "Valvula corredera", imageName: "exclamationmark.triangle", descripcion: "Es de vital importancia revisar la valvula corredera")
+        ]
+        
+        let data = [
+            ServiceDataSource(sectionName: "Mantenimiento de Primer Nivel", content: firstLevelService),
+            ServiceDataSource(sectionName: "Mantenimiento de segundo Nivel", content: secondLevelService),
+            ServiceDataSource(sectionName: "Avanzado", content: otherLevelService)
+        ]
+        
+        return data
+    }
+    
     func getExperts() -> [(name: String, description: String)] {
         return [
             (name: "Roberto Aguirre", description: "Mecanico con 3 años de experiencia"),

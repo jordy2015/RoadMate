@@ -8,13 +8,19 @@
 import UIKit
 
 class TutorialView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBOutlet weak var stepLabel: UILabel!
+    @IBOutlet weak var exampleImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionText: UITextView!
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
     }
-    */
-
+    
+    func setText(step: Int, image: UIImage, title: String, descrip: String) {
+        stepLabel.text = "Paso No. \(step)"
+        exampleImage.image = image
+        titleLabel.text = title
+        descriptionText.text = descrip
+    }
 }
